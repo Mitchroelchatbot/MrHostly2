@@ -1,4 +1,7 @@
 {
+  "enabledPlugins": {
+    "ecc@ecc": true
+  },
   "extraKnownMarketplaces": {
     "ecc": {
       "source": {

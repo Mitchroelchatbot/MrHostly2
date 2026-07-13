@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MrHostly — Your AI co-host for short-term rentals</title>
+  <meta name="description" content="MrHostly answers your guests instantly, day and night — in their own language. The AI co-host for Airbnb, Booking.com and Vrbo hosts.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main">
+      <a class="brand" href="#top">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M16 3 4 12v3h2v12a2 2 0 0 0 2 2h6v-8h4v8h6a2 2 0 0 0 2-2V15h2v-3L16 3z" fill="currentColor"/>
+        </svg>
+        <span>MrHostly</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-primary btn-sm" href="#cta">Start free</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">AI co-host for short-term rentals</p>
+          <h1>Your guests get answers.<br><em>You get your evenings back.</em></h1>
+          <p class="lead">MrHostly replies to guest messages instantly, day and night, in any language — across Airbnb, Booking.com and Vrbo. You stay in control; it handles the repetition.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#cta">Start free — no card needed</a>
+            <a class="btn btn-ghost" href="#how">See how it works</a>
+          </div>
+          <ul class="hero-proof" role="list">
+            <li><strong>&lt; 1 min</strong> average reply time</li>
+            <li><strong>90%</strong> of messages handled</li>
+            <li><strong>30+</strong> languages</li>
+          </ul>
+        </div>
+
+        <div class="hero-demo" aria-label="Example guest conversation, answered by MrHostly">
+          <div class="chat-window">
+            <div class="chat-header">
+              <span class="chat-dot" aria-hidden="true"></span>
+              Casa Zonzeel · Guest chat
+              <span class="chat-badge">MrHostly active</span>
+            </div>
+            <div class="chat-body" id="chat-demo">
+              <!-- messages injected by main.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 60 C 240 90 480 20 720 40 C 960 60 1200 90 1440 50 L 1440 90 L 0 90 Z" fill="currentColor"/></svg>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="section" id="features">
+      <div class="container">
+        <p class="eyebrow">What MrHostly does</p>
+        <h2>Everything a great co-host would do — minus the salary</h2>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">⚡</div>
+            <h3>Instant answers, 24/7</h3>
+            <p>"What's the wifi code?" at 1 a.m.? Answered before you'd even seen the notification. MrHostly knows your listing inside out.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🌍</div>
+            <h3>Every guest's language</h3>
+            <p>French guests get French, German guests get German. MrHostly speaks 30+ languages fluently — including Dutch.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🏠</div>
+            <h3>Knows your properties</h3>
+            <p>Feed it your house manual, check-in steps and local tips once. It answers from <em>your</em> facts — never guesses.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🔀</div>
+            <h3>All channels, one brain</h3>
+            <p>Airbnb, Booking.com, Vrbo and direct bookings flow into one inbox with one consistent voice.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🙋</div>
+            <h3>Escalates when it matters</h3>
+            <p>Complaints, refunds, emergencies — anything sensitive is handed to you with a summary and a suggested reply.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">⭐</div>
+            <h3>More five-star reviews</h3>
+            <p>Fast, helpful answers are the #1 driver of review scores. MrHostly nudges happy guests to leave one.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="section section-alt" id="how">
+      <div class="container">
+        <p class="eyebrow">How it works</p>
+        <h2>Live in fifteen minutes</h2>
+        <ol class="steps" role="list">
+          <li class="step">
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3>Connect your listings</h3>
+            <p>Link Airbnb, Booking.com or Vrbo with a couple of clicks. Your calendar, listings and message history sync automatically.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3>Teach it your place</h3>
+            <p>Paste your house manual or answer a short questionnaire — wifi, parking, check-in, house rules, favourite restaurants.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3>Relax — you're covered</h3>
+            <p>MrHostly starts replying. You watch every conversation, tweak answers when you like, and step in whenever you want.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section" id="stories">
+      <div class="container">
+        <p class="eyebrow">From hosts like you</p>
+        <h2>Less phone, better scores</h2>
+        <div class="quote-grid">
+          <figure class="quote-card">
+            <blockquote>"I used to answer the same five questions every single day. Now I check the app with my morning coffee and everything's already handled."</blockquote>
+            <figcaption>Sanne · 3 apartments, Amsterdam</figcaption>
+          </figure>
+          <figure class="quote-card">
+            <blockquote>"Our response rate went to 100% and our rating from 4.6 to 4.9 in two months. Guests keep complimenting how quick we are."</blockquote>
+            <figcaption>Marco &amp; Lies · Farm stay, Drenthe</figcaption>
+          </figure>
+          <figure class="quote-card">
+            <blockquote>"It escalated a burst pipe to me within a minute, with the plumber's number from my own manual attached. That sold me."</blockquote>
+            <figcaption>Deborah · 12 units, Antwerp</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section section-alt" id="pricing">
+      <div class="container">
+        <p class="eyebrow">Pricing</p>
+        <h2>Simple plans that pay for themselves</h2>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Starter</h3>
+            <p class="price"><span>€19</span>/mo</p>
+            <p class="price-sub">For your first listing</p>
+            <ul role="list">
+              <li>1 property</li>
+              <li>Unlimited guest messages</li>
+              <li>All languages</li>
+              <li>Email support</li>
+            </ul>
+            <a class="btn btn-ghost btn-block" href="#cta">Start free trial</a>
+          </article>
+          <article class="price-card price-featured">
+            <p class="price-flag">Most popular</p>
+            <h3>Host</h3>
+            <p class="price"><span>€49</span>/mo</p>
+            <p class="price-sub">For growing hosts</p>
+            <ul role="list">
+              <li>Up to 5 properties</li>
+              <li>Smart escalation to your phone</li>
+              <li>Review nudges &amp; upsells</li>
+              <li>Priority support</li>
+            </ul>
+            <a class="btn btn-primary btn-block" href="#cta">Start free trial</a>
+          </article>
+          <article class="price-card">
+            <h3>Pro</h3>
+            <p class="price"><span>€129</span>/mo</p>
+            <p class="price-sub">For property managers</p>
+            <ul role="list">
+              <li>Unlimited properties</li>
+              <li>Team inbox &amp; roles</li>
+              <li>API access</li>
+              <li>Dedicated onboarding</li>
+            </ul>
+            <a class="btn btn-ghost btn-block" href="#cta">Talk to us</a>
+          </article>
+        </div>
+        <p class="pricing-note">Every plan starts with a 14-day free trial. No credit card, cancel anytime.</p>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="container container-narrow">
+        <p class="eyebrow">FAQ</p>
+        <h2>Good questions, honest answers</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Will guests know they're talking to an AI?</summary>
+            <p>That's up to you. Many hosts add a friendly note like "our digital co-host may answer first". Replies are written in your tone, and you can review or edit anything it sends.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What happens with questions it can't answer?</summary>
+            <p>If MrHostly isn't confident, it doesn't improvise. It tells the guest you'll get back to them and pings you with a summary and a suggested reply.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does it work with Airbnb's rules?</summary>
+            <p>Yes. MrHostly works within each platform's messaging policies and never asks guests to move off-platform.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I take over a conversation at any time?</summary>
+            <p>Always. The moment you type in a thread, MrHostly steps back and stays quiet until you hand it back.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is my data safe?</summary>
+            <p>Your house manuals and guest conversations are encrypted, never sold, and never used to answer other hosts' guests.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="section cta" id="cta">
+      <div class="container container-narrow">
+        <h2>Ready to stop answering the wifi question?</h2>
+        <p class="lead">Join hosts who handed the repetitive stuff to MrHostly — and kept the hospitality for themselves.</p>
+        <form class="cta-form" id="signup-form" novalidate>
+          <label class="visually-hidden" for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+          <button class="btn btn-primary" type="submit">Start free trial</button>
+        </form>
+        <p class="cta-note" id="signup-note">14 days free · no credit card · cancel anytime</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand brand-footer" href="#top">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M16 3 4 12v3h2v12a2 2 0 0 0 2 2h6v-8h4v8h6a2 2 0 0 0 2-2V15h2v-3L16 3z" fill="currentColor"/>
+          </svg>
+          <span>MrHostly</span>
+        </a>
+        <p>The AI co-host for short-term rental hosts.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <p class="footer-fine">© <span id="year"></span> MrHostly. Made with hospitality.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
